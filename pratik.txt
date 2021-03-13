@@ -1,0 +1,3 @@
+<span id="a">root@isdf_club_ait</span>:<span id="b">~</span><span id="c">$</span> cat pratik.txt<br/><br/>
+Hi, this is ISDF CLUB.<p>This is the ISDF CLUB official website of AIT, Pune. All the information related to the club will be posted here. <a href="#">ISDF info page</a>.</p>
+<p>Our Club was founded last year. This is our Instagram handle link ("one follow doesn't cost you anything")<a href="https://www.instagram.com/isdf_ait/"> Instagram</a>  and facebook handle <a href="https://www.facebook.com/aitisdfclub/"> facebook</a>.</p>
