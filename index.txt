@@ -1,0 +1,17 @@
+<h1 id="heading1"><i class="fa fa-terminal" aria-hidden="true"></i>  ISDF CLUB Terminal  </h1>
+<span id="a">root@isdf_club_ait</span>:<span id="b">~</span><span id="c">$</span> cat pratik.txt<br/><br/>
+Hi, welcome to the ISDF CLUB.<p>This is the ISDF CLUB official website of AIT, Pune. All the information related to the club will be posted here. <a href="info.html">ISDF info page</a>. <i class="fa fa-info-circle" aria-hidden="true"></i></p>
+<p>Our club was founded last year and so you might not be aware of our name. For more information and regular updates you can follow our social media handles given below:</p>
+<ul>
+  <li><a href="https://www.instagram.com/isdf_ait/" target="_blank">Instagram</a>  <i class="fa fa-instagram" aria-hidden="true"></i></li>
+  <li><a href="https://www.facebook.com/aitisdfclub/" target="_blank">Facebook</a>  <i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+  <li><a href="https://www.linkedin.com/company/isdf-ait/" target="_blank">LinkedIn</a>  <i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+  <li>Don't forget to contribute us at:<a href="https://github.com/aitisdfclub/" target="_blank"> Github</a>  <i class="fa fa-github" aria-hidden="true"></i></li>
+</ul>
+<p> Our active event is:</p>
+<ul>
+  <li>Class on SQL Injection</li>
+</ul>
+<p>Contact Us <a href="mailto: aitisdfclub@gmail.com"><span id="a">aitisdfclub@gmail.com</span></a>  <i class="fa fa-envelope" aria-hidden="true"></i></p>
+<h3>This is an end of our opening page</h3>
+<span id="a">root@isdf_club_ait</span>:<span id="b">~</span><span id="c">$</span>Sorry typing facility is not available right now <i class="fa fa-smile-o" aria-hidden="true"></i>

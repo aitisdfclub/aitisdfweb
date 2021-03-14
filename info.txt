@@ -1,0 +1,6 @@
+<h1 id="heading1">ISDF CLUB Info</h1>
+
+<span id="a">root@isdf_club_ait</span>:<span id="b">~</span><span id="c">$</span> cat info.txt<br/><br/>
+Hi, this is ISDF CLUB.<p>This is the ISDF CLUB official website of AIT, Pune. All the information related to the club will be posted here. <a href="#">ISDF info page</a>.</p>
+
+<span id="a">root@isdf_club_ait</span>:<span id="b">~</span><span id="c">$</span>Sorry typing facility is not available right now ;))

@@ -5,6 +5,13 @@ body {
     background-attachment: fixed;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.heading{
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+    position: center center;
+}
 
 #console {
     font-family: courier, monospace;
@@ -40,4 +47,11 @@ a {
     z-index: 99999;
     overflow: visible;
     background: rgb(0, 0, 0) url('images/loading_1.gif') no-repeat center center;
+}
+
+
+#heading1{
+    color: #0f0;
+    
+
 }
