@@ -27,7 +27,7 @@ a {
     text-decoration: none;
 }
 #a {
-    color: #0f0;
+    color: rgb(255, 0, 0);
 }
 #c {
     color: #0bc;
@@ -49,9 +49,23 @@ a {
     background: rgb(0, 0, 0) url('images/loading_1.gif') no-repeat center center;
 }
 
+#mail{
+    color: #0f0;
+}
 
 #heading1{
+    text-align: center;
     color: #0f0;
-    
 
+}
+
+#heading2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.Nav{
+    display: inline;
+    position: center center;
 }
