@@ -24,10 +24,10 @@ body {
 }
 
 .dark-mode{
-    background-color: rgb(255, 255, 255);
-    background-image: radial-gradient(
+    background-image: url("images/kali-1615811446852-8660.jpg");
+    /* background-image: radial-gradient(
     rgba(0, 150, 0, 0.75), black 120%
-    );
+    ); */
     color: black;
     /* font-size: 25px; */
 }
@@ -44,6 +44,28 @@ a {
 #b {
     color: #ff0096;
 }
+
+.button {
+    position:relative;
+    border: 1px solid #000;
+    background: #00111c;
+    background: #3b3b3b;
+    padding: 12.5px 25px;
+    color: #ccc;
+    font-size:10px;
+    text-decoration: none;
+    vertical-align: middle;
+    z-index:9999;
+    min-width:100px;
+  }
+  
+  .button:hover {
+    background: #001f33;
+    color: #fff;
+  }
+  .button:active {
+    background: #000000;
+  }
 
 #loader{
     position: fixed;
@@ -70,7 +92,4 @@ a {
 
 
 
-
-
-
-
+/*---------------------------------------------------*/

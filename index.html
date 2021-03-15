@@ -9,8 +9,41 @@
 </head>
 
 <body>
+    <!--
+<pre class="kali" style="word-wrap: break-word; white-space: pre-wrap;">
 
-    <p id="time_span" ></p>
+    ...................
+                        ..,;:ccc,.
+                      ......''';lxO.
+            .....''''..........,:ld;
+    ........          .';;;:::;,,.x,
+                  ..'''.            0Xxoc:,.  ...
+              ....                ,ONkc;,;cokOdc',.
+          ...                   OMo            ':ddo.
+        .                      dMc                 :OO;
+                                0M.                    .:
+                                  ;Wd
+                                      ;XO,
+                                        ,d0Odlc;,..
+                                            ..',;:cdOOd::,.
+                                                      .:d;.':;.
+                                                        'd,   .'
+                                                          ;l    ..
+                                                            .o     .
+                                                              c
+                                                              .'
+                                                              .
+
+<p align="center">The quieter you become, the more you are able to hear</p>
+</pre>
+-->
+
+
+
+
+    <center>
+        <p id="time_span"></p>
+    </center>
     <!-- <script>
         n = new Date();
         y = n.getFullYear();
@@ -21,13 +54,13 @@
         sec = n.getSeconds();
         document.getElementById("date").innerHTML = m + "/" + d + "/" + y + "---" + h + ": " + min;
     </script> -->
-    <button onclick="myFunction()">Toggle light mode</button>
+    <center><button class="button" onclick="myFunction()">Toggle light mode</button></center>
 
     <script>
         function updateTime() {
             var currentTime = new Date()
             var date = currentTime.getDate();
-            month = currentTime.getMonth() +1;
+            month = currentTime.getMonth() + 1;
             var year = currentTime.getFullYear();
             var hours = currentTime.getHours()
             var minutes = currentTime.getMinutes()
@@ -35,7 +68,7 @@
             if (minutes < 10) {
                 minutes = "0" + minutes
             }
-            var t_str = date + "/" + month + "/" + year + " : : "+ hours + ":" + minutes + ":" + seconds + " ";
+            var t_str = date + "/" + month + "/" + year + " : : " + hours + ":" + minutes + ":" + seconds + " ";
             if (hours > 11) {
                 t_str += "PM";
             } else {
