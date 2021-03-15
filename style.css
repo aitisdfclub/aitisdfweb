@@ -1,26 +1,35 @@
 body {
-    background-image: url('images/imageedit_1_2393709377.png');
+    background-color: black;
     background-size: cover;
+    color: white;
     background-position: center center;
     background-attachment: fixed;
-}
+} 
+
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
-.heading{
-    color: aliceblue;
-    font-family: 'Dancing Script', cursive;
-    position: center center;
-}
+
 
 #console {
     font-family: courier, monospace;
-    color: #fff;
     width:750px;
     margin-left:auto;
     margin-right:auto;
-    margin-top:100px;
+    margin-top:10px;
     font-size:14px;
+}
+#instagram, #facebook, #linkedin, #github{
+    color: #fff;
+}
+
+.dark-mode{
+    background-color: rgb(255, 255, 255);
+    background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%
+    );
+    color: black;
+    /* font-size: 25px; */
 }
 a {
     color: #0bc;
@@ -59,13 +68,9 @@ a {
 
 }
 
-#heading2{
-    text-align: center;
-    color: rgb(255, 255, 255);
 
-}
 
-.Nav{
-    display: inline;
-    position: center center;
-}
+
+
+
+

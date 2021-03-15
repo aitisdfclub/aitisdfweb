@@ -9,10 +9,52 @@
 </head>
 
 <body>
+
+    <p id="time_span" ></p>
+    <!-- <script>
+        n = new Date();
+        y = n.getFullYear();
+        m = n.getMonth() + 1;
+        d = n.getDate();
+        h = n.getHours();
+        min = n.getMinutes();
+        sec = n.getSeconds();
+        document.getElementById("date").innerHTML = m + "/" + d + "/" + y + "---" + h + ": " + min;
+    </script> -->
+    <button onclick="myFunction()">Toggle light mode</button>
+
+    <script>
+        function updateTime() {
+            var currentTime = new Date()
+            var date = currentTime.getDate();
+            month = currentTime.getMonth() +1;
+            var year = currentTime.getFullYear();
+            var hours = currentTime.getHours()
+            var minutes = currentTime.getMinutes()
+            var seconds = currentTime.getSeconds();
+            if (minutes < 10) {
+                minutes = "0" + minutes
+            }
+            var t_str = date + "/" + month + "/" + year + " : : "+ hours + ":" + minutes + ":" + seconds + " ";
+            if (hours > 11) {
+                t_str += "PM";
+            } else {
+                t_str += "AM";
+            }
+            document.getElementById('time_span').innerHTML = t_str;
+        }
+        setInterval(updateTime, 1000);
+    </script>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+
     <div id="loader">
 
     </div>
-    <div class="bg-image"></div>
     <script type="text/javascript">
         var loader;
         function loadNOw(opacity) {
@@ -37,7 +79,6 @@
             loadNOw(2);
         })
     </script>
-
 
 
     <script type="text/javascript">
@@ -117,7 +158,7 @@
                     var rtn = new RegExp("\n", "g"); // newline regex
 
                     $("#console").html(text.replace(rtn, "<br/>"));// replace newline chars with br, tabs with 4 space and blanks with an html blank
-                    window.scrollBy(0, 50); // scroll to make sure bottom is always visible
+                    // window.scrollBy(0, 50); // scroll to make sure bottom is always visible
                 }
                 if (key.preventDefault && key.keyCode != 122) { // prevent F11(fullscreen) from being blocked
                     key.preventDefault()
@@ -146,7 +187,7 @@
                 return text
             }
         }
-        Typer.speed = 3;
+        Typer.speed = 6;
         Typer.file = "index.txt";
         Typer.init();
 
@@ -162,7 +203,7 @@
 
 
 
-    <div id="console"></div>
+    <div id="console" class="body"></div>
 
     <script type="text/javascript">
 
