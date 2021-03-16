@@ -7,16 +7,21 @@ body {
     width: 100vw; min-height: 100vh; background-size: cover;
 } 
 
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 
 
 #console {
     font-family: courier, monospace;
+    opacity: 0.9;
     width:750px;
-    margin-left:auto;
-    margin-right:auto;
+    position: absolute;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
     margin-top:10px;
     font-size:14px;
 }
@@ -31,8 +36,10 @@ body {
     ); */
     color: black;
     width: 100vw; min-height: 100vh; background-size: cover;
-    /* font-size: 25px; */
+    font-size: 25px;
 }
+
+
 a {
     color: #0bc;
     text-decoration: none;
@@ -157,3 +164,8 @@ a {
   .slider.round:before {
     border-radius: 50%;
   }
+
+  /*-----------------------------------------------*/
+
+
+  
