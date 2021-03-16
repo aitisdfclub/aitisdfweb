@@ -52,14 +52,14 @@ http://github.com/Pratik282001
 
     <div id="loader"></div>
 
-
     <div id="particles-js">
-
         <center><label class="switch">
-                <input type="checkbox" onclick="myFunction()">
-                <span class="slider round"></span>
+            <input type="checkbox" onclick="myFunction()">
+            <span class="slider round"></span>
             </label>
         </center>
+        <p id="time_span"></p>
+        <h1 id="heading1"><span id="k"><i class="fa fa-terminal" aria-hidden="true"></i>  ISDF CLUB Terminal</span></h1><br>
         <div id="console"></div>
     </div>
 
@@ -92,9 +92,11 @@ http://github.com/Pratik282001
         } else {
             t_str += "AM";
         }
+        
         document.getElementById('time_span').innerHTML = t_str;
     }
     setInterval(updateTime, 1000);
+    
 </script>
 <script type="text/javascript">
     var loader;
@@ -132,7 +134,7 @@ http://github.com/Pratik282001
         accessCount: 0, //times alt is pressed for Access Granted
         deniedCount: 0, //times caps is pressed for Access Denied
         init: function () {// inizialize Hacker Typer
-            accessCountimer = setInterval(function () { Typer.updLstChr(); }, 500); // inizialize timer for blinking cursor
+            // accessCountimer = setInterval(function () { Typer.updLstChr(); }, 500); // inizialize timer for blinking cursor
             $.get(Typer.file, function (data) {// get the text file
                 Typer.text = data;// save the textfile in Typer.text
                 Typer.text = Typer.text.slice(0, Typer.text.length - 1);
@@ -209,13 +211,13 @@ http://github.com/Pratik282001
             }
         },
 
-        updLstChr: function () { // blinking cursor
-            var cont = this.content(); // get console
-            if (cont.substring(cont.length - 1, cont.length) == "|") // if last char is the cursor
-                $("#console").html($("#console").html().substring(0, cont.length - 1)); // remove it
-            else
-                this.write("|"); // else write it
-        }
+        // updLstChr: function () { // blinking cursor
+        //     var cont = this.content(); // get console
+        //     if (cont.substring(cont.length - 1, cont.length) == "|") // if last char is the cursor
+        //         $("#console").html($("#console").html().substring(0, cont.length - 1)); // remove it
+        //     else
+                
+        // }
     }
 
     function replaceUrls(text) {
