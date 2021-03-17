@@ -7,6 +7,8 @@ body {
     width: 100vw; min-height: 100vh; background-size: cover;
 } 
 
+
+
 #particles-js 
 {
     width: 100%;
@@ -27,6 +29,18 @@ canvas
 /*********************************************************/
 
 /**********************************************
+time and date
+*********************************************/
+
+
+#time_span{
+  font-family: courier, monospace;
+  text-align: center;
+  font-size: 25px;
+  display: absolute;
+}
+
+/**********************************************
 scrollbar
 **********************************************/
 
@@ -40,7 +54,7 @@ scrollbar
 }
  
 ::-webkit-scrollbar-thumb {
-  background-color: #0f0;
+  background-color: rgb(44, 49, 44);
   border-radius: 5px;
 }
 
@@ -125,25 +139,6 @@ blinking text animatioin
 
 }
 
-/**********************************************
-time and date
-*********************************************/
-
-
-#time_span{
-  font-family: courier, monospace;
-  text-align: center;
-  font-size: 25px;
-  display: block;
-}
-
-@media (max-width: 500px) 
-{
-    #time_span
-    {
-        display: none;
-    }
-}
 
 #loader{
     position: fixed;
@@ -183,68 +178,70 @@ time and date
 
 /*---------------------------------------------------*/
 /* The switch - the box around the slider for dark and light mode*/
+
 .switch {
-    margin-top: 1em;
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgb(255, 255, 255);
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: rgb(0, 0, 0);
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: rgb(255, 255, 255);
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 5px rgb(0, 0, 0);
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 10px;
-  }
-  
-  .slider.round:before {
-    border-radius: 20%;
-  }
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+input:checked + .slider {
+  background-color: #000000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 5px #000000;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 14px;
+}
+
+.slider.round:before {
+  border-radius: 44%;
+}
 
   /*-----------------------------------------------*/
 

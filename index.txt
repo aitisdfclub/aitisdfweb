@@ -21,6 +21,6 @@ Contact Us <a href="mailto: aitisdfclub@gmail.com"><span id="mail">aitisdfclub@g
 <span id="a">root@isdf_club_ait</span>:<span id="b">~</span><span id="c">$</span>Sorry typing facility is not available right now <i class="fa fa-smile-o" aria-hidden="true"></i>
 <br><br>
 <p align="center">© 2020 AIT_ISDF_CLUB · Proudly powered by <a href="">Us</a>.<br>"Contact Us at port 7900"</p>
-<footer class="footer"><a class="footer__scroll" href="#"><i class="fa fa-angle-down fa-3x" aria-hidden="true"></i></a></footer>
+<footer class="footer"><a class="footer__scroll" href="#"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a></footer>
 </b>
 </div>
