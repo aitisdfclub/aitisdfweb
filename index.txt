@@ -6,9 +6,10 @@
 <span id="a">root@isdf_club_ait/isdfwebsite</span>:<span id="b">~</span><span id="c">$</span> cat isdfclub.txt<br>
 <h3 align="center" id="heading2">"Information is the oxygen of the modern age. It seeps through the walls topped by barbed wire, it wafts across the electrified borders."</h3>
 <div style="word-wrap: break-word; white-space: pre-wrap;">
-                      -Ronald Reagan 
+                      -Ronald Reagan&#9996;
 </div>
-<h3 align="center" id="heading2">The ISDF club is a place for anyone and everyone with a keen interest to dive deep into the fascinating world of cyber-security, ethical hacking and digital forensics. We provide a platform for keen learners to learn and grow in the field by providing access to a plethora of learning material, practical knowledge and hands-on experience. The club organizes exciting contests regularly with alluring prizes to be won.</h3>
+<h3 align="center" id="heading2">The ISDF club is a place for anyone and everyone with a keen interest to dive deep into the fascinating world of cyber-security, ethical hacking and digital forensics. We provide a platform for keen learners to learn and grow in the field by providing access to a plethora of learning material, practical knowledge and hands-on experience. The club organizes exciting contests regularly with alluring prizes to be won.&#128681;</h3>
+<a href="#"><span id="mail">Click here</span></a> to view our daily blogs and News &#9997;
 Contact Us <a href="mailto: aitisdfclub@gmail.com"><span id="mail">aitisdfclub@gmail.com</span></a>  <i class="fa fa-envelope" aria-hidden="true"></i>
 <ul>
   <li><a href="https://www.instagram.com/isdf_ait/" target="_blank">Instagram  </a><i class="fa fa-instagram" aria-hidden="true"></i>  </li>
@@ -18,9 +19,11 @@ Contact Us <a href="mailto: aitisdfclub@gmail.com"><span id="mail">aitisdfclub@g
 </ul>
 <h2 align="center" id="heading2">We believe everyone should have free access to all information. Hacking should not be a privileged skill - everyone should have the opportunity to learn about computer security in the age of technology. </h2>
 <h3>This is an end of our opening page</h3>          
-<span id="a">root@isdf_club_ait</span>:<span id="b">~</span><span id="c">$</span>Sorry typing facility is not available right now <i class="fa fa-smile-o" aria-hidden="true"></i>
+<span id="a">root@isdf_club_ait</span>:<span id="b">~</span><span id="c">$</span>Sorry typing facility is not available right now &#128516;
 <br><br>
-<p align="center">© 2020 AIT_ISDF_CLUB · Proudly powered by <a href="">Us</a>.<br>"Contact Us at port 7900"</p>
+<p align="center">&#169; 2020 AIT_ISDF_CLUB · Proudly powered by <a href="">Us</a>.<br>"Contact Us at port 7900"</p>
 <footer class="footer"><a class="footer__scroll" href="#"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a></footer>
 </b>
+
+
 </div>
