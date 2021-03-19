@@ -2,18 +2,17 @@ body {
     background-color: black;
     background-size: cover;
     color: white;
+    position: absolute;
     background-position: center center;
     background-attachment: fixed;
     width: 100vw; min-height: 100vh; background-size: cover;
 } 
 
-
-
 #particles-js 
 {
     width: 100%;
     height: 100%;
-    position: absolute;
+    /* position: absolute; */
     z-index: 10;
     top: 0;
     left: 0
@@ -38,7 +37,7 @@ time and date
   text-align: center;
   font-size: 25px;
   display: absolute;
-  animation: change 2s;
+  animation: change 1s;
   animation-iteration-count: infinite;
 }
 
@@ -104,11 +103,10 @@ scrollbar
     /* background-image: radial-gradient(
     rgba(0, 150, 0, 0.75), black 120%
     ); */
-    color: rgb(192, 168, 168);
-    width: 100vw; min-height: 100vh; background-size: cover;
-    font-size: 25px;
+    color: rgb(255, 255, 255);
+    /* width: 100vw; min-height: 100vh; background-size: cover; */
+    font-size: 24px;
 }
-
 
 a {
     color: #0bc;
@@ -215,7 +213,6 @@ blinking text animatioin
   -webkit-transition: .4s;
   transition: .4s;
 }
-
 
 input:checked + .slider {
   background-color: #000000;

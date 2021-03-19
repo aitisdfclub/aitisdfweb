@@ -2,6 +2,7 @@
 <!--
     Congrats you are here.
 -->
+
 <head>
     <title>ISDF CLUB</title>
     <link rel="icon" href="images/club-removebg-preview.png" type="image/x-icon">
@@ -23,7 +24,7 @@
               ....                ,ONkc;,;cokOdc',.
           ...                   OMo            ':ddo.
         .                      dMc                 :OO;
-                                0M.                    .:
+                                0M.                   .:
                                   ;Wd
                                       ;XO,
                                         ,d0Odlc;,..
@@ -40,7 +41,7 @@
 </pre>
 -->
 
-<!--
+    <!--
 <Pratik>    
 if you want to edit or make new pages please copy this index.html with
 scripts written below and also particle.js and app.js with style.css and
@@ -51,20 +52,28 @@ http://github.com/Pratik282001
 -->
 
     <div id="loader"></div>
-
-    <div id="particles-js">
+    <div id="particles-js"></div>
+    <div class="content">
         <center><label class="switch">
-            <input type="checkbox" onclick="myFunction()">
-            <span class="slider round"></span>
+                <input type="checkbox" onclick="myFunction()">
+                <span class="slider round"></span>
             </label>
         </center>
         <p id="time_span"></p>
-        <h1 id="heading1"><span id="k"><i class="fa fa-terminal" aria-hidden="true"></i>  ISDF CLUB Terminal</span> </h1><br>
+        <div class="container">
+            <h1 id="heading1"><span id="k"><i class="fa fa-terminal" aria-hidden="true"></i> ISDF CLUB
+                    Terminal</span>
+            </h1><br>
+        </div>
         <div id="console"></div>
     </div>
+    <footer class="footer"><a class="footer__scroll" href="#"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a></footer>
+
 
 </body>
-
+<script>
+    (function () { var script = document.createElement('script'); script.onload = function () { var stats = new Stats(); document.body.appendChild(stats.dom); requestAnimationFrame(function loop() { stats.update(); requestAnimationFrame(loop) }); }; script.src = '//mrdoob.github.io/stats.js/build/stats.min.js'; document.head.appendChild(script); })()
+</script>
 <script>
     function myFunction() {
         var element = document.body;
@@ -92,11 +101,11 @@ http://github.com/Pratik282001
         } else {
             t_str += "AM";
         }
-        
+
         document.getElementById('time_span').innerHTML = t_str;
     }
     setInterval(updateTime, 1000);
-    
+
 </script>
 <script type="text/javascript">
     var loader;
@@ -114,7 +123,7 @@ http://github.com/Pratik282001
 
     function displayContent() {
         loader.style.display = 'none';
-        document.getElementById('content').style.display = 'block';
+        // document.getElementById('content').style.display = 'block';
     }
 
     document.addEventListener("DOMContentLoaded", function () {
@@ -216,7 +225,7 @@ http://github.com/Pratik282001
         //     if (cont.substring(cont.length - 1, cont.length) == "|") // if last char is the cursor
         //         $("#console").html($("#console").html().substring(0, cont.length - 1)); // remove it
         //     else
-                
+
         // }
     }
 
@@ -237,7 +246,7 @@ http://github.com/Pratik282001
     var timer = setInterval("t();", 30);
     function t() {
         Typer.addText({ "keyCode": 123748 });
-        if (Typer.index > Typer.text.length) {
+        if (Typer.index > Typer.text) {
             clearInterval(timer);
         }
     }
